@@ -43,7 +43,7 @@ onMounted(() => {
       <div class="card-body">
         <div class="row">
           <div class="col-md-5 col-12">
-            <img class="movie-image" :src="imageUrl + movie.backdrop_path" />
+            <img class="movie-image img-fluid" :src="imageUrl + movie.backdrop_path" />
           </div>
           <div class="col-md-7 col-12">
             <MovieDetail :movie="movie"></MovieDetail>
